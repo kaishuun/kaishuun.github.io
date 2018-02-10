@@ -12,3 +12,28 @@ body{ color: white; }
       left: 50%;
       transform: translate(-50%, -50%);
 }
+
+/* IMAGE FOLDER */
+.imgfolder { position: relative; background-color: white; }
+.backimg{
+      height: 500px;
+      z-index: 4;
+}
+.beans {
+      position: absolute;
+      height: 100px;
+      top: 50%;
+      left: 15%;
+      transform: translate(-50%,-50%);
+      z-index: 5;
+}
+
+
+
+/* TEXT FOLDER */
+.mainP{
+      padding: 20px;
+      font-size: 15px;
+      background-color: #ff69b4;
+      color: white;
+}

@@ -11,13 +11,19 @@
 
  </head>
  <body>
+       <script>
+       var textclicked = false;
+       </script>
       <div class="row hero">
             <div class="center">
                   <h1> Eyes </h1>
-                  <row class="imgfolder">
-                        <img class="currentimg" id = "image1" src="img/test1.png" onclick="function1()">
-                  </row>
-
+                  <div class="imgfolder">
+                        <img class="backimg" src="img/background.png">
+                        <img class="beans" src="img/beans.png">
+                  </div>
+                  <div class="textfolder">
+                        <p class="mainP" id = "text1" onclick="mainP()">ughhh I'm out of money. I'll just make coffee this morning</p>
+                  </div>
             </div>
       </div>
 
