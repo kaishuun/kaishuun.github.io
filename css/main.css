@@ -1,0 +1,14 @@
+/* MAIN CSS */
+body{ color: white; }
+.row{ margin:0; }
+
+.hero {
+      height: 100vh;
+      background-color: black;
+}
+.center {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+}
