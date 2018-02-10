@@ -4,7 +4,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-      <title> EYES </title>
+      <title> Pold me </title>
 
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
       <link rel="stylesheet" href="css/main.css"/>
@@ -13,16 +13,32 @@
  <body>
        <script>
        var textclicked = false;
+       var choices = "";
+       var good = 0
+       var abeans = true;
+       var akettle = true;
+       var agrinder = true;
+
        </script>
       <div class="row hero">
             <div class="center">
                   <h1> Eyes </h1>
                   <div class="imgfolder">
                         <img class="backimg" src="img/background.png">
-                        <img class="beans" src="img/beans.png">
+                        <img class="windowimg" src="img/default_painting.png">
+                        <img class="winimg" style = "display : none" src="img/win_painting.png">
+                        <img class="loseimg" style = "display : none" src="img/lose_painting.png">
+                        <img class="beans" id = "beans" src="img/beans.png" onclick="beansOpt()">
+                        <img class="funnel" src="img/funnel.png">
+                        <img class="grinder" id = "grinder" src="img/grinder.png" onclick="grinderopts()" >
+                        <img class="kettle" id = "kettle" src="img/kettle.png" onclick="kettleopts()">
                   </div>
                   <div class="textfolder">
-                        <p class="mainP" id = "text1" onclick="mainP()">ughhh I'm out of money. I'll just make coffee this morning</p>
+                        <p class="testp" id="testp1"onclick="aoptions()"></p>
+                        <p class="testp" id="testp2"onclick="boptions()"></p>
+                        <p class="testp" id="testp3"onclick="coptions()"></p>
+                        <p class="mainP" id = "text1" onclick="mainP()">ughhh I'm out of money. I'll just make coffee this morning
+
                   </div>
             </div>
       </div>
