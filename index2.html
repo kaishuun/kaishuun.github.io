@@ -24,17 +24,20 @@
                   <!-- IMAGE OPTIONS -->
                   <div class="imgfolder">
                         <!-- BACKGROUND IMAGES -->
-                        <img class="backImg1GC" src="img/background03.png">
+                        <img class="backImg1GC" id = "background" onclick="textchange01()"src="img/background03.png">
 
                         <!-- CHARACTER IMAGES -->
-                        <img class="charImg01GC" style="display: none;" src="img/scene01.png">
-                        <img class="charImg02GC" style="display: none;" src="img/scene02.png">
-                        <img class="charImg03GC" style="display: none;" src="img/scene03.png">
+                        <img class="charImg01GC" id = "girl" style="display: none;" onclick="textchange01()" src="img/scene01.png">
+                        <img class="charImg02GC" id = "pole" style="display: none;"onclick="textchange01()" src="img/scene02.png">
+                        <img class="charImg03GC" id = "hold"style="display: none;"onclick="textchange01()" src="img/scene03.png">
+                        <img class="charImg04GC" id = "toss"style="display: none;" onclick="textchange01()" src="img/scene04.png">
                   </div>
                   <!-- TEXT OPTIONS -->
                   <div class="textfolder">
                         <p class="mainTextp" onclick="initialfunc()"></p>
-                        <p class="OPTp" id="text1" onclick="mainP()">Wow today is such a wonderful day."</p>
+                        <p class="OPTp" id="text1" onclick="textchange01()">Wow today is such a wonderful day."</p>
+                        <p class="OPTp" id="choice1" onclick="choice1()"></p>
+                        <p class="OPTp" id="choice2" onclick="choice2()"></p>
                         <!-- GIRL 01 FUNCTION -->
                         <!-- POLE 02 FUNCTION -->
                         <!-- GIRL 03 FUNCTION -->
