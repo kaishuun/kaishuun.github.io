@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+      <!-- META -->
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+      <title> POLED ME </title>
+
+      <!-- STYLESHEETS -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+      <link rel="stylesheet" href="css/main.css"/>
+      <link rel="stylesheet" href="css/index2.css"/>
+</head>
+<body>
+      <!-- GOOD COFFEE -->
+      <script>
+      var textclicked = 0;
+
+      </script>
+      <!-- MAIN CONTENT -->
+      <div class="row hero">
+            <div class="offset-md-4 col-md-3">
+                  <h1 class="header1 TAC animated infinite pulse"><i class="fas fa-heartbeat"></i> Poled Me <i class="fas fa-heartbeat"></i></h1>
+                  <!-- IMAGE OPTIONS -->
+                  <div class="imgfolder">
+                        <!-- BACKGROUND IMAGES -->
+                        <img class="backImg1GC" onclick="textchange2()" src="img/background05.png">
+
+                        <!-- CHARACTER IMAGES -->
+                        <img class="charImg" id = "girl" onclick="textchange2()"style="display:none;" src="img/scene05.png">
+                        <img class="charImg" id = "maybe" onclick="textchange2()"style="display:none;" src="img/scene06.png">
+                        <img class="charImg" id = "hurt" onclick="textchange2()"style="display:none;" src="img/scene02.png">
+
+                  </div>
+                  <!-- TEXT OPTIONS -->
+                  <div class="textfolder">
+                        <!-- Triggers Initial Function -->
+                        <p class="mainTextp" onclick="initialfunc()"></p>
+                        <p class="OPTp" id = "text1" onclick="textchange2()">Tim Hortons</p>
+                        <p class="OPTp" id = "choice1" onclick="choice1()"></p>
+                        <p class="OPTp" id = "choice2" onclick="choice2()"></p>
+                        <div class="row TAC">
+                              <a href="index8.html" class="endBTN" style="display: none;" id="wina"><p>Yes</p></a>
+                              <a href="index6.html" class="endBTN" style="display: none;" id="losea"><p>No</p></a>
+                        </div>
+                        <!-- GIRL 01 FUNCTION -->
+                        <!-- POLE 02 FUNCTION -->
+                        <!-- GIRL 03 FUNCTION -->
+                        <!-- CHOICE 1 HELP OR IGNORE-->
+                  </div>
+            </div>
+      </div>
+
+      <!-- SCRIPTS -->
+      <script src="js/datesim.js"></script>
+      <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>

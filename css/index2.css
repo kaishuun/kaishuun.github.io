@@ -1,0 +1,9 @@
+/* Index 2*/
+/* IMAGE FOLDER */
+.backImg1GC { height: 500px; z-index: 1; }
+
+.charImg{
+  position: absolute;
+  width:100%;
+  z-index:5;
+}
