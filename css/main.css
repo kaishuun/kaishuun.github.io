@@ -1,5 +1,5 @@
 /* ALL */
-*{ margin: 0; padding: 0; font-family: "Comic Sans MS"; overflow: hidden; cursor: url(../img/heart3.png), default; }
+*{ margin: 0; padding: 0; font-family: "Comic Sans MS";  cursor: url(../img/heart3.png), default; }
 body{ color: white; }
 .row{ margin: 0; }
 .TAC { text-align: center; }
