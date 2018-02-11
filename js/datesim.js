@@ -187,20 +187,88 @@ function textchange03() {
       {
             document.getElementById("text4").innerHTML = "You: I JUST MET YOU!!!"
       }
-      else if(textclicked === 15)
+      textclicked += 1
+}
+
+function textchange07() {
+      if(textclicked === 0)
       {
-            gotoindex6()
+            document.getElementById("text4").innerHTML = "You: Wow that sure was a wild ride."
+      }
+      else if(textclicked === 1)
+      {
+            document.getElementById("text4").innerHTML = "You: Oh wait… over at that table, isn’t that…"
+      }
+      else if(textclicked === 2)
+      {
+            document.getElementById('only').style.display  = "inline-block"
+            document.getElementById("text4").innerHTML = "You: You! You’re the nurse!"
+      }
+      else if(textclicked === 3)
+      {
+            document.getElementById("text4").innerHTML = "Nurse: Why hello there! It’s me, the nurse."
+      }
+      else if(textclicked === 4)
+      {
+            document.getElementById("text4").innerHTML = "You: I thought you died! The pole hit you!"
+      }
+      else if(textclicked === 5)
+      {
+            document.getElementById("text4").innerHTML = "Nurse: Ohoho of course not. I’m a nurse."
+      }
+      else if(textclicked === 6)
+      {
+            document.getElementById("text4").innerHTML = "Nurse: I’m the top class nurse in all of Ohio State."
+      }
+      else if(textclicked === 7)
+      {
+            document.getElementById("text4").innerHTML = "Nurse: I also have the ability to revive someone every 20 years."
+      }
+      else if(textclicked === 8)
+      {
+            document.getElementById("text4").innerHTML = "You: Wow! That’s great!"
+      }
+      else if(textclicked === 9)
+      {
+            document.getElementById("text4").innerHTML = "Nurse: Let’s live happy and forever now!"
+      }
+      else if(textclicked === 10)
+      {
+            document.getElementById("text4").innerHTML = "You: <3 <3 <3 <3"
+      }
+      else if(textclicked === 11)
+      {
+            document.getElementById("text4").innerHTML = "Narrarator: the ambiguous protagonist and the nurse live happily ever after."
       }
       textclicked += 1
 }
-function gotoindex6()
-{
-      //Write this to transition to index 6.
-}
-
-function textchange04()
-{
-
-
-
+function textchange06() {
+      if(textclicked === 0)
+      {
+            document.getElementById("text4").innerHTML = "You: That sure was a weird day."
+      }
+      else if(textclicked === 1)
+      {
+            document.getElementById("text4").innerHTML = "You: I can’t wait to get home and just sleep"
+      }
+      else if(textclicked === 2)
+      {
+            document.getElementById('back').style.display  = "none"
+            document.getElementById('only').style.display  = "inline-block"
+            document.getElementById("text4").innerHTML = "You: No! Don’t do this!"
+      }
+      else if(textclicked === 3)
+      {
+            document.getElementById("text4").innerHTML = "Pole: You’ve been a naughty child."
+      }
+      else if(textclicked === 4)
+      {
+            document.getElementById("text4").innerHTML = "Pole: It’s every citizen’s duty to call 911 in emergencies."
+      }
+      else if(textclicked === 5)
+      {
+            document.getElementById("text4").innerHTML = "You: Please! Don’t do this!"
+      }
+      
+      textclicked += 1
 }

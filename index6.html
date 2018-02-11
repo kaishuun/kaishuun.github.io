@@ -14,7 +14,9 @@
 </head>
 <body>
       <!-- GOOD COFFEE -->
-
+      <script>
+      var textclicked = 0;
+      </script>
       <!-- MAIN CONTENT -->
       <div class="row hero">
             <div class="offset-md-4">
@@ -22,13 +24,15 @@
                   <!-- IMAGE OPTIONS -->
                   <div class="imgfolder">
                         <!-- BACKGROUND IMAGES -->
-                        <img class="backImg1GC" src="img/background01.png">
+                        <img class="backImg1GC" id = "back"onclick="textchange06()" src="img/background03.png">
+
+                        <img class="charImg01GC" id = "only"onclick="textchange06()"style="display: none;" src="img/scene02.png">
                   </div>
                   <!-- TEXT OPTIONS -->
                   <div class="textfolder">
                         <!-- Triggers Initial Function -->
                         <p class="mainTextp" onclick="initialfunc()"></p>
-                        <p class="OPTp" id="text1" onclick="textchange01()">Wow today is such a wonderful day."</p>
+                        <p class="OPTp" id="text4" onclick="textchange06()">Street</p>
                         <!-- GIRL 01 FUNCTION -->
                         <!-- POLE 02 FUNCTION -->
                         <!-- GIRL 03 FUNCTION -->

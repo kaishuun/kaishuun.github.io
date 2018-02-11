@@ -14,7 +14,10 @@
 </head>
 <body>
       <!-- GOOD COFFEE -->
-
+      <script>
+      var textclicked = 0;
+      var index4 = false;
+      </script>
       <!-- MAIN CONTENT -->
       <div class="row hero">
             <div class="offset-md-4">
@@ -22,16 +25,18 @@
                   <!-- IMAGE OPTIONS -->
                   <div class="imgfolder">
                         <!-- BACKGROUND IMAGES -->
-                        <img class="backImg1GC" src="img/background02.png">
+                        <img class="backImg1GC" id = "0"onclick="textchange03()" src="img/background02.png">
 
                         <!-- CHARACTER IMAGES -->
-                        <img class="charImg01GC" style="display: none;" src="img/scene07.png">
-                        <img class="charImg02GC" style="display: none;" src="img/scene08.png"> <!-- Alone -->
+                        <img class="charImg01GC" onclick="textchange03()"id = "1"style="display: none;" src="img/scene07.png">
+                        <img class="charImg03GC" onclick="textchange03()"id = "2"style="display: none;" src="img/scene02.png">
+                        <img class="charImg02GC"onclick="textchange03()" id = "3"style="display: none;" src="img/scene08.png"> <!-- Alone -->
                   </div>
                   <!-- TEXT OPTIONS -->
                   <div class="textfolder">
                         <!-- Triggers Initial Function -->
                         <p class="mainTextp" onclick="initialfunc()"></p>
+                        <p class="OPTp" id="text4" onclick="textchange03()">Hospital"</p>
                         <!-- GIRL 01 FUNCTION -->
                         <!-- POLE 02 FUNCTION -->
                         <!-- GIRL 03 FUNCTION -->
