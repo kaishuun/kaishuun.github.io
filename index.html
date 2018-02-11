@@ -5,11 +5,13 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-      <title> POLD ME </title>
+      <title> POLED ME </title>
 
       <!-- STYLESHEETS -->
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
       <link rel="stylesheet" href="css/main.css"/>
+      <link rel="stylesheet" href="css/index.css"/>
 </head>
 <body>
       <!-- VARIABLES -->
@@ -25,8 +27,8 @@
 
       <!-- MAIN CONTENT -->
       <div class="row hero">
-            <div class="center">
-                  <h1> Eyes </h1>
+            <div class="offset-md-4">
+                  <h1 class="header1 TAC animated infinite pulse"><i class="fas fa-heartbeat"></i> Poled Me <i class="fas fa-heartbeat"></i></h1>
                   <!-- IMAGE OPTIONS -->
                   <div class="imgfolder">
                         <!-- Background Image -->
@@ -34,7 +36,7 @@
                         <!-- Window Images -->
                         <img class="windowimg" id="default"                                   src="img/default_painting.png">
                         <img class="winimg"        id="win"  style="display: none;"  src="img/win_painting.png">
-                        <img class="loseimg"       id="lose" style="display : none;" src="img/lose_painting.png">
+                        <img class="loseimg"       id="lose" style="display: none;" src="img/lose_painting.png">
                         <!-- Coffee Making Images-->
                         <img class="beans"   id="beans"  src="img/beans.png"   onclick="beansOpt()">
                         <img class="funnel"   id= "funnel" src="img/funnel.png"  onclick="funnelopts()">
@@ -43,16 +45,21 @@
                   </div>
                   <!-- TEXT OPTIONS -->
                   <div class="textfolder">
+                        <div class="row TAC">
+                              <a href="index2.html" class="endBTN" style="display: none;" id="wina"><p> "Thanks to this great coffee, today will be average." </p></a>
+                              <a href="#" class="endBTN" style="display: none;" id="losea"><p "> "I should just go to Tims. <br> I can't make coffee." </p></a>
+                        </div>
+                        <p class="OPTp" id="text1" onclick="mainP()">"Ughhh I'm out of money. <br> I'll just make coffee this morning."</p>
                         <p class="OPTp" id="testp1" onclick="aoptions()"></p>
                         <p class="OPTp" id="testp2" onclick="boptions()"></p>
                         <p class="OPTp" id="testp3" onclick="coptions()"></p>
-                        <p class="TAC" id="text1" onclick="mainP()">"Ughhh I'm out of money. <br> I'll just make coffee this morning."</p>
                   </div>
             </div>
       </div>
 
       <!-- SCRIPTS -->
       <script src="js/coffee.js"></script>
+      <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
       <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
