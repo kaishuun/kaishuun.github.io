@@ -1,14 +1,25 @@
-/* MAIN CSS */
+/* ALL */
+*{ margin: 0; padding: 0; font-family: "Comic Sans MS"; overflow: hidden; }
 body{ color: white; }
-.row{ margin:0; }
+.row{ margin: 0; }
+.TAC { text-align: center; }
 
-.hero {
-      height: 100vh;
-      background-color: black;
+/* MAIN CONTENT */
+.hero { height: 100vh; background-color: black; }
+.header1{padding: 5px 0px;}
+
+/* IMAGE FOLDER */
+.imgfolder { position: relative; background-color: white; }
+
+.textfolder{
+      margin-top: 10px;
+      height: 180px;
 }
-.center {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
+
+/* TEXT FOLDER */
+.textfolder {
+      padding: 20px;
+      font-size: 15px;
+      background-color: #ff69b4;
+      color: white;
 }
