@@ -219,3 +219,124 @@ function choice5_2()
 
   textclickedchoice2 += 1
 }
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+function textchange9()
+{
+
+if(textclicked === 0)
+      {
+            document.getElementById("text1").innerHTML = "You: Donut!"
+      }
+      else if(textclicked === 1)
+      {
+            document.getElementById('BackImg1GC').style.display = "inline-block";
+            document.getElementById('BackImg2GC').style.display = "none";
+            document.getElementById("text1").innerHTML = "You: How are you? Are you alive?"
+      }
+      else if(textclicked === 2)
+      {
+            document.getElementById("text1").innerHTML = "You: Oh bless, you’re okay!"
+      }
+      else if(textclicked === 3)
+      {
+            document.getElementById("text1").innerHTML = "You: I’m so happy!"
+      }
+      else if(textclicked === 4)
+      {
+            document.getElementById("text1").innerHTML = "Donut: Okay…?"
+      }
+      else if(textclicked === 5)
+      {
+            document.getElementById("text1").innerHTML = "You: So, when can you get out?"
+      }
+      else if(textclicked === 6)
+      {
+            document.getElementById("text1").innerHTML = "Donut: I’m on life support… I can’t move…"
+      }
+      else if(textclicked === 7)
+      {
+            document.getElementById("text1").innerHTML = "You: Oh no!"
+      }
+      else if(textclicked === 8)
+      {
+            document.getElementById("text1").innerHTML = "Donut: It’s okay...But before I die…"
+      }
+      else if(textclicked === 9)
+      {
+            document.getElementById("text1").innerHTML = "Donut: I just want to tell you… I love you.."
+      }
+      else if(textclicked === 10)
+      {
+            document.getElementById("text1").innerHTML = "You: Donut!"
+      }
+      else if(textclicked === 11)
+      {
+            document.getElementById("text1").innerHTML = "Donut: I’ve loved you since…  I met you…"
+      }
+      else if(textclicked === 12)
+      {
+            document.getElementById("text1").innerHTML = "You: Oh my…"
+      }
+      else if(textclicked === 13)
+      {
+            document.getElementById("text1").innerHTML = "Accept Her love?";
+            document.getElementById("choice9_1").innerHTML = "Yes";
+            document.getElementById("choice9_2").innerHTML = "Deny her passion";
+      }
+    textclicked += 1
+}
+function choice5_1()
+{
+  if(textclickedchoice1 === 1){
+    document.getElementById("text1").innerHTML = "";
+    document.getElementById("choice9_2").innerHTML = "";
+    document.getElementById("choice9_1").innerHTML = "You: I love…"
+  }
+  else if(textclickedchoice1 === 2){
+    document.getElementById("choice9_1").innerHTML = "You: I love you too"
+  }
+  else if(textclickedchoice1 === 3){
+    document.getElementById("choice9_1").innerHTML = "You: Ever since I saw your Superb sweater..."
+  }
+  else if(textclickedchoice1 === 4){
+    document.getElementById("choice9_1").innerHTML = "You: And your beautiful donut..."
+  }
+  else if(textclickedchoice1 === 5){
+    document.getElementById("choice9_1").innerHTML = "You: You’ve always been on my mind. I love you."
+  }
+  else if(textclickedchoice1 === 6){
+    document.getElementById("choice9_1").innerHTML = "Donut: Oh!"
+  }
+  else if(textclickedchoice1 === 7){
+    document.getElementById("choice9_1").innerHTML = "You: Oh no! What’s wrong?!?"
+  }
+  else if(textclickedchoice1 === 8){
+    document.getElementById("choice9_1").innerHTML = "Donut: HAGK! kAH! UGHUUGH!"
+  }
+  else if(textclickedchoice1 === 9){
+    document.getElementById("choice9_1").innerHTML = "You: No! It’s a heart attack! Nurse! Nuuuuurse!!!!"
+  }
+  else if(textclickedchoice1 === 10){
+    //Make it fade out and go to end screen andy.
+  }
+  textclickedchoice1 += 1
+}
+
+function choice9_2()
+{
+  if(textclickedchoice2 === 1){
+    document.getElementById("choice9_1").innerHTML = "";
+    document.getElementById("text1").innerHTML = "";
+    document.getElementById("choice9_2").innerHTML = "You: Nah I barely even know you."
+  }
+  else if(textclickedchoice2 === 2){
+    document.getElementById("choice9_2").innerHTML = "You: Later."
+  }
+  else if(textclickedchoice2 === 3){
+    //Go to index 7
+  }
+
+  textclickedchoice2 += 1
+}
