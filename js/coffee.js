@@ -1,3 +1,11 @@
+var textclicked = false;
+var choices = "";
+var good = 0;
+var abeans = true;
+var akettle = true;
+var agrinder = true;
+var afunnel = true;
+
 function mainP () {
       if (!textclicked) {
             textclicked = true;

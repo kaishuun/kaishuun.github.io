@@ -10,42 +10,38 @@
       <!-- STYLESHEETS -->
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
       <link rel="stylesheet" href="css/main.css"/>
-      <link rel="stylesheet" href="css/index2.css"/>
+      <link rel="stylesheet" href="css/index.css"/>
 </head>
 <body>
       <!-- GOOD COFFEE -->
-      <script>
-      var textclicked = 0;
-      </script>
+      <script> var textclicked = 0; </script>
+
       <!-- MAIN CONTENT -->
       <div class="row hero">
-            <div class="offset-md-4">
+            <div class="offset-md-4 col-md-4">
                   <h1 class="header1 TAC animated infinite pulse"><i class="fas fa-heartbeat"></i> Poled Me <i class="fas fa-heartbeat"></i></h1>
                   <!-- IMAGE OPTIONS -->
                   <div class="imgfolder">
                         <!-- BACKGROUND IMAGES -->
-                        <img class="backImg1GC" id = "background" onclick="textchange01()"src="img/background03.png">
+                        <img class="col-md-12" id = "background" onclick="textchange01()" src="img/background03.png">
 
                         <!-- CHARACTER IMAGES -->
-                        <img class="col-md-4" id = "girl" style="display: none;" onclick="textchange01()" src="img/scene01.png">
-                        <img class="col-md-4" id = "pole" style="display: none;"onclick="textchange01()" src="img/scene02.png">
-                        <img class="col-md-4" id = "hold"style="display: none;"onclick="textchange01()" src="img/scene03.png">
-                        <img class="col-md-4" id = "toss"style="display: none;" onclick="textchange01()" src="img/scene04.png">
+                        <img class="col-md-12" id = "girl" style="display: none;" onclick="textchange01()" src="img/scene01.png">
+                        <img class="col-md-12" id = "pole" style="display: none;"onclick="textchange01()" src="img/scene02.png">
+                        <img class="col-md-12" id = "hold"style="display: none;"onclick="textchange01()" src="img/scene03.png">
+                        <img class="col-md-12" id = "toss"style="display: none;" onclick="textchange01()" src="img/scene04.png">
                   </div>
                   <!-- TEXT OPTIONS -->
                   <div class="textfolder">
                         <p class="mainTextp" onclick="initialfunc()"></p>
                         <p class="OPTp" id="text1" onclick="textchange01()">Wow today is such a wonderful day."</p>
-                        <p class="OPTp" id="choice1" onclick="choice1()"></p>
-                        <p class="OPTp" id="choice2" onclick="choice2()"></p>
+
                         <div class="row TAC">
-                              <a href="index4.html" class="endBTN" style="display: none;" id="wina"><p>Yes</p></a>
-                              <a href="index3.html" class="endBTN" style="display: none;" id="losea"><p>No</p></a>
+                              <a href="index4.html" class="OPTp endBTN " style="display: none;" id="wina"><p>Yes</p></a>
+                              </div>
+                              <div class="row TAC">
+                              <a href="index3.html" class="OPTp endBTN" style="display: none;" id="losea"><p>No</p></a>
                         </div>
-                        <!-- GIRL 01 FUNCTION -->
-                        <!-- POLE 02 FUNCTION -->
-                        <!-- GIRL 03 FUNCTION -->
-                        <!-- CHOICE 1 HELP OR IGNORE-->
                   </div>
             </div>
       </div>

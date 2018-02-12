@@ -1,23 +1,21 @@
 /* ALL */
-*{ margin: 0; padding: 0; font-family: "Comic Sans MS";  cursor: url(../img/heart3.png), default; }
+*{ margin: 0; padding: 0; font-family: "Comic Sans MS";  overflow: hidden; cursor: url(../img/heart3.png), default; }
 body{ color: white; }
 .row{ margin: 0; }
 .TAC { text-align: center; }
 
 /* MAIN CONTENT */
 .hero { height: 100vh; background-color: black; }
-.header1{padding: 5px 0px;}
+.header1{ padding: 5px 0px; }
+.herodiv{ width: auto; }
 
 /* IMAGE FOLDER */
 .imgfolder { position: relative; background-color: white; }
 
-.textfolder{
-      margin-top: 10px;
-      height: 180px;
-}
-
 /* TEXT FOLDER */
 .textfolder {
+      margin-top: 10px;
+      height: 180px;
       padding: 20px;
       font-size: 15px;
       background-color: #ff69b4;

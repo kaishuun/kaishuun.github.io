@@ -1,8 +1,6 @@
-/* COPY ONLY document.getElementById('').innerHTML=""; */
-/* COPY ONLY document.getElementById('').innerHTML=""; */
+function initialfunc () { document.getElementById('').innerHTML=""; }
 
-function textchange2()
-{
+function textchange2(){
       if(textclicked === 0)
       {
             document.getElementById("text1").innerHTML = "You: I sure do love that Tim Horton’s coffee!";
@@ -85,27 +83,21 @@ function textchange2()
       }
       textclicked += 1
 }
-
-function choice1_1()
-{
+function choice1_1(){
   document.getElementById("wina").innerHTML = "inline-block"
   document.getElementById("choice1").innerHTML = ""
   document.getElementById("choice2").innerHTML = ""
   document.getElementById("text1").innerHTML = ""
-
 }
-function choice1_2()
-{
+function choice1_2(){
   document.getElementById("losea").display.style= "inline-block"
   document.getElementById("choice1").innerHTML = ""
   document.getElementById("choice2").innerHTML = ""
     document.getElementById("text1").innerHTML = ""
-
 }
-function textchange5()
-{
 
-if(textclicked === 0)
+function textchange5(){
+      if(textclicked === 0)
       {
             document.getElementById("text1").innerHTML = "You: Twintails!"
       }
@@ -167,8 +159,7 @@ if(textclicked === 0)
       }
     textclicked += 1
 }
-function choice5_1()
-{
+function choice5_1(){
   if(textclickedchoice1 === 1){
     document.getElementById("text1").innerHTML = "";
     document.getElementById("choice5_2").innerHTML = "";
@@ -199,34 +190,25 @@ function choice5_1()
     document.getElementById("choice5_1").innerHTML = "You: No! It’s a heart attack! Nurse! Nuuuuurse!!!!"
   }
   else if(textclickedchoice1 === 10){
-    //Make it fade out and go to end screen andy.
+      document.getElementById("wina").style.display = "inline-block"
   }
   textclickedchoice1 += 1
 }
-function choice5_2()
-{
+function choice5_2(){
   if(textclickedchoice2 === 1){
     document.getElementById("choice5_1").innerHTML = "";
     document.getElementById("text1").innerHTML = "";
     document.getElementById("choice5_2").innerHTML = "You: Nah I barely even know you."
   }
   else if(textclickedchoice2 === 2){
-    document.getElementById("choice5_2").innerHTML = "You: Later."
+    document.getElementById("choice5_2").style.display = "none"
+    document.getElementById("losea").style.display = "inline-block"
   }
-  else if(textclickedchoice2 === 3){
-    //Go to index 7
-  }
-
   textclickedchoice2 += 1
 }
 
-///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
-function textchange9()
-{
-
-if(textclicked === 0)
-      {
+function textchange9() {
+      if(textclicked === 0){
             document.getElementById("text1").innerHTML = "You: Donut!"
       }
       else if(textclicked === 1)
@@ -287,8 +269,7 @@ if(textclicked === 0)
       }
     textclicked += 1
 }
-function choice5_1()
-{
+function choice5_11(){
   if(textclickedchoice1 === 1){
     document.getElementById("text1").innerHTML = "";
     document.getElementById("choice9_2").innerHTML = "";
@@ -323,9 +304,7 @@ function choice5_1()
   }
   textclickedchoice1 += 1
 }
-
-function choice9_2()
-{
+function choice9_2(){
   if(textclickedchoice2 === 1){
     document.getElementById("choice9_1").innerHTML = "";
     document.getElementById("text1").innerHTML = "";
@@ -341,12 +320,7 @@ function choice9_2()
   textclickedchoice2 += 1
 }
 
-
-function initialfunc () {
-      document.getElementById('').innerHTML="";
-}
-function textchange01()
-{
+function textchange01(){
       if(textclicked === 0)
       {
             document.getElementById("text1").innerHTML = "You: I can’t wait to go to school."
@@ -384,19 +358,13 @@ function textchange01()
       else if(textclicked === 7)
       {
             document.getElementById("text1").innerHTML = "Would you help her?"
-            document.getElementById("choice1").innerHTML = "Yes"
-            document.getElementById("choice2").innerHTML = "No"
+            document.getElementById("wina").style.display = "inline-block";
+            document.getElementById("losea").style.display = "inline-block";
       }
       textclicked += 1
 }
-function choice1()
-{
-      document.getElementById("choice1").innerHTML = ""
-      document.getElementById("choice2").innerHTML = ""
-      document.getElementById("text1").innerHTML = "You: I need to call 911! "
-}
-function choice2()
-{
+
+function choice2(){
       document.getElementById("choice1").innerHTML = ""
       document.getElementById("choice2").innerHTML = ""
       document.getElementById('hold').style.display = "none";
@@ -404,8 +372,7 @@ function choice2()
       document.getElementById("text1").innerHTML = "This isn’t worth my time…"
 }
 
-function textchange01()
-{
+function textchange01(){
       if(textclicked === 0)
       {
             document.getElementById("text1").innerHTML = "You: I can’t wait to go to school."
@@ -443,25 +410,24 @@ function textchange01()
       else if(textclicked === 7)
       {
             document.getElementById("text1").innerHTML = "Would you help her?"
-            document.getElementById("choice1").innerHTML = "Yes"
-            document.getElementById("choice2").innerHTML = "No"
+            document.getElementById("wina").style.display = "inline-block";
+            document.getElementById("losea").style.display = "inline-block";
       }
       textclicked += 1
 }
-function choice1_1()
-{
+function choice1_1(){
       document.getElementById("choice1").innerHTML = ""
       document.getElementById("choice2").innerHTML = ""
       document.getElementById("text1").innerHTML = "You: I need to call 911! "
 }
-function choice1_2()
-{
+function choice1_2(){
       document.getElementById("choice1").innerHTML = ""
       document.getElementById("choice2").innerHTML = ""
       document.getElementById('hold').style.display = "none";
       document.getElementById('toss').style.display = "inline-block";
       document.getElementById("text1").innerHTML = "This isn’t worth my time…"
 }
+
 function textchange03() {
       if(textclicked === 0)
       {
@@ -473,6 +439,7 @@ function textchange03() {
       }
       else if(textclicked === 2)
       {
+            document.getElementById('0').style.display  = "none"
             document.getElementById('1').style.display  = "inline-block"
             document.getElementById("text4").innerHTML = "Nurse: I was a male all along!"
       }
@@ -527,7 +494,9 @@ function textchange03() {
       }
       else if(textclicked === 14)
       {
-            document.getElementById("text4").innerHTML = "You: I JUST MET YOU!!!"
+            document.getElementById("text4").style.display ="none"
+            document.getElementById("wina").style.display ="inline-block"
+
       }
       textclicked += 1
 }
@@ -543,6 +512,7 @@ function textchange07() {
       }
       else if(textclicked === 2)
       {
+            document.getElementById('back123').style.display  = "none"
             document.getElementById('only').style.display  = "inline-block"
             document.getElementById("text4").innerHTML = "You: You! You’re the nurse!"
       }
@@ -580,10 +550,12 @@ function textchange07() {
       }
       else if(textclicked === 11)
       {
-            document.getElementById("text4").innerHTML = "Narrarator: the ambiguous protagonist and the nurse live happily ever after."
+            document.getElementById("text4").style.display = "none"
+            document.getElementById("wina").style.display = "inline-block"
       }
       textclicked += 1
 }
+
 function textchange06() {
       if(textclicked === 0)
       {
@@ -610,6 +582,7 @@ function textchange06() {
       else if(textclicked === 5)
       {
             document.getElementById("text4").innerHTML = "You: Please! Don’t do this!"
+            document.getElementById("wina").style.display = "inline-block"
       }
 
       textclicked += 1
