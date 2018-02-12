@@ -19,6 +19,7 @@ function textchange2(){
       }
       else if(textclicked === 4)
       {
+            document.getElementById('badback').style.display = "none";
             document.getElementById('girl').style.display = "inline-block";
             document.getElementById("text1").innerHTML = "You: hello.";
       }
@@ -77,8 +78,8 @@ function textchange2(){
       else if(textclicked === 17)
       {
         document.getElementById("text1").innerHTML = "Would you like to help?";
-        document.getElementById("choice1").innerHTML = "Yes";
-        document.getElementById("choice2").innerHTML = "No.";
+        document.getElementById("wina").style.display = "inline-block";
+        document.getElementById("losea").style.display = "inline-block";
 
       }
       textclicked += 1
